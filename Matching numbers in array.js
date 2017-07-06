@@ -15,7 +15,7 @@ function checkDuplicateNumbers(array){
 //Will push the duplicate into a new array called newArr
 
 function hasDup(array){
-  return (new Set(array)).size !== array.length)
+  return (new Set(array)).size !== array.length
 }
 
 //Will return true if a duplicate is found
